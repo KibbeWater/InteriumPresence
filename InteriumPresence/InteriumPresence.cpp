@@ -93,8 +93,8 @@ int main()
     //Download the file reader to the latest version
     #ifndef DEBUG
         std::cout << "Downloading the file reader..." << std::endl;
-        DeleteUrlCacheEntry(L"https://kibbewater.xyz/interium/assets/FileReader.dll");
-        URLDownloadToFile(NULL, L"https://kibbewater.xyz/interium/assets/FileReader.dll", L"FileReader.dll", NULL, NULL);
+        DeleteUrlCacheEntry(L"https://kibbewater.com/interium/assets/FileReader.dll");
+        URLDownloadToFile(NULL, L"https://kibbewater.com/interium/assets/FileReader.dll", L"FileReader.dll", NULL, NULL);
     #endif
 
     //Load the dynamic file reader to read the .dat file. Able to dynamically change the way the files are read
